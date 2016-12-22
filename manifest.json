@@ -5,6 +5,7 @@
 
   "description": "Change text or background color of any open tab",
   
+  "homepage_url": "https://github.com/RP99/TextAndBackgroundColorChanger",
 
   "permissions": [
     "<all_urls>"
