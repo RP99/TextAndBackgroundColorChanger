@@ -5,3 +5,14 @@ html, body{
 div{
   cursor: pointer;
 }
+
+.button{
+  border: 1px solid black;
+  padding: 2px;
+  margin: 3px;
+  text-align: center;
+}
+.button:hover{
+  background-color: #abc;
+}
+  
