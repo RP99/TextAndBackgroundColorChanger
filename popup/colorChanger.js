@@ -7,6 +7,12 @@ document.addEventListener("click", (e) => {
 	allFrames: true
     });
   }
+  else if(e.target.classList.contains("backgroundColorChange")){
+    browser.tabs.executeScript(null, {
+	code: backgroundColorChange,
+	allFrames: true
+    });    
+  }
   else if(e.target.classList.contains("reset")){
     browser.tabs.reload();
     window.close();
