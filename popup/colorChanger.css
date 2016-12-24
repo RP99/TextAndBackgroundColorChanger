@@ -14,6 +14,7 @@ div{
   color: #633;
 }
 .button:hover{
+  color: #fff;
   background-color: #abc;
 }
 .reset{
