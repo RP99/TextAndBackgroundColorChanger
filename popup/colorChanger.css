@@ -11,6 +11,7 @@ div{
   padding: 2px;
   margin: 3px;
   text-align: center;
+  color: #633;
 }
 .button:hover{
   background-color: #abc;
