@@ -5,6 +5,10 @@ html, body{
 div{
   cursor: pointer;
 }
+
+.colorPalette, .button{
+  border: 1px solid black;
+}
 .colorPalette{
   margin-left: 2px;
   width: 10px;
