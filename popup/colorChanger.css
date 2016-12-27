@@ -5,7 +5,12 @@ html, body{
 div{
   cursor: pointer;
 }
-
+.colorPalette{
+  margin-left: 2px;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
 .button{
   border: 1px solid black;
   border-radius: 3px;
