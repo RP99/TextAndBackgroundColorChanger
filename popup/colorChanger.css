@@ -16,7 +16,6 @@ div{
   display: inline-block;
 }
 .button{
-  border: 1px solid black;
   border-radius: 3px;
   padding: 2px;
   margin: 3px;
