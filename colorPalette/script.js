@@ -9,7 +9,7 @@ document.addEventListener("click", (e) => {
   if(e.target.classList.contains("color"){
     var anchor = e.target;
     
-    chosenColor = anchor.value
+    chosenColor = anchor.getAttribute("value");
     document.getElementById("selectedColor").innerHTML = chosenColor;
   }
 }
