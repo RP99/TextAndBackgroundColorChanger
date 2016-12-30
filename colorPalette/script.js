@@ -3,7 +3,7 @@ document.body.style.backgroundColor = "#000";*/
 
 
 var chosenColor;
-console.log("outside click event listener");
+
 document.addEventListener("click", (e) => {
 	document.body.style.backgroundColor = "#000";
   if(e.target.classList.contains("color"){
