@@ -11,5 +11,6 @@ document.addEventListener("click", (e) => {
     
     chosenColor = anchor.getAttribute("value");
     document.getElementById("selectedColor").innerHTML = chosenColor;
+    colorChange = 'document.body.style.color = "' + chosenColor + '"';	
   }
 }
