@@ -5,6 +5,9 @@ var colorChange, chosenColor;
 
 var colors = ["#fff", "#000", "#abc", "#00f"];
 
+var colorBox = document.createElement("tr");
+
+
 
 
 document.addEventListener("click", (e) => {
