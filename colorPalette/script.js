@@ -17,6 +17,7 @@ for(let i = 0; i < colors.length; i++){
   colorElement.classList.add("color");
   colorBox.appendChild(colorElement);
 }
+document.getElementById("colorPalette").appendChild(colorBox);
 
 document.addEventListener("click", (e) => {
 	document.body.style.backgroundColor = "#000";
