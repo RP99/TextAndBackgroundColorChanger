@@ -1,8 +1,7 @@
 /*document.body.style.color = "#fff";
 document.body.style.backgroundColor = "#000";*/
 
-
-var chosenColor;
+var colorChange, chosenColor;
 
 document.addEventListener("click", (e) => {
 	document.body.style.backgroundColor = "#000";
