@@ -3,7 +3,7 @@ document.body.style.backgroundColor = "#000";*/
 
 var colorChange, chosenColor;
 
-var colors = ["#fff", "#000", "#abc", "#00f"];
+var colors = ["#fff","#000","#abc","#00f","#f00","#0f0"];
 
 var colorBox = document.createElement("tr");
 
